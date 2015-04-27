@@ -1,0 +1,10 @@
+name             'roomorama-elasticsearch'
+maintainer       'Zhe Wang'
+maintainer_email 'zh3w4ng@gmail.com'
+license          'All rights reserved'
+description      'Installs/Configures roomorama-elasticsearch'
+long_description 'Installs/Configures roomorama-elasticsearch'
+version          '0.1.3'
+
+depends 'java'
+depends 'elasticsearch', '~> 0.3.13'
